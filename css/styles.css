@@ -1,0 +1,18 @@
+:root{ color-scheme: dark; }
+* { box-sizing: border-box; font-family: system-ui, sans-serif; }
+body.dark { margin: 0; background:#0b0b0b; color:#f3f3f3; }
+.container { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+.topbar { display:flex; align-items:center; justify-content:space-between; padding:12px 16px; background:#111; border-bottom:1px solid #222; position:sticky; top:0; }
+.topbar h1 { margin:0; font-size:20px; }
+nav a { color:#fff; margin-left:12px; text-decoration:none; opacity:.9; }
+nav a.active { border-bottom:2px solid #fff; }
+.card { background:#141414; border:1px solid #222; border-radius:12px; padding:16px; margin:12px 0; }
+.grid { display:grid; gap:12px; }
+.grid2 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+.input, .button, select, textarea { width:100%; padding:10px 12px; border-radius:10px; border:1px solid #333; background:#1a1a1a; color:#fff; }
+.button { background:#fff; color:#000; cursor:pointer; }
+.button:disabled { opacity:.6; cursor:not-allowed; }
+.row { display:flex; gap:8px; align-items:center; }
+.foot { text-align:center; opacity:.6; padding:16px; border-top:1px solid #222; }
+.helper { font-size:12px; opacity:.8; }
+.err { color:#ff6b6b; font-size:14px; }
